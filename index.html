@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Tier Auto Detailing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Top Tier Auto Detailing</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Book</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="overlay">
+    <h2>Bring Your Car Back to Life</h2>
+    <p>Premium detailing in Brampton. Quality you can see.</p>
+    <a href="#contact" class="btn">Book Now</a>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="service-grid">
+    <div class="card">
+      <h3>Exterior Detail</h3>
+      <p>Hand wash, tire shine, wax finish</p>
+      <span>$50+</span>
+    </div>
+
+    <div class="card">
+      <h3>Interior Detail</h3>
+      <p>Deep vacuum, wipe down, stain removal</p>
+      <span>$90+</span>
+    </div>
+
+    <div class="card">
+      <h3>Full Detail</h3>
+      <p>Complete inside & outside transformation</p>
+      <span>$140+</span>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Our Work</h2>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9">
+    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+  </div>
+
+  <p class="gallery-text">Real results. Real shine. Your car could be next.</p>
+</section>
+
+<section id="contact">
+  <h2>Book Your Detail</h2>
+
+  <form onsubmit="sendMessage(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="What service do you need?" required></textarea>
+    <button type="submit">Request Booking</button>
+  </form>
+
+  <p id="successMsg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Top Tier Auto Detailing | Brampton, ON</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
